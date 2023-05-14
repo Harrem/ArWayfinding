@@ -1,88 +1,79 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>AR Indoor Navigation App</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        /* Add your custom CSS styles here */
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
-            margin: 0;
-        }
+  <title>AR Indoor Navigation App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Add your custom CSS styles here */
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #F2F2F2;
+      color: #333;
+    }
 
-        .header {
-            padding: 20px;
-            background-color: #000;
-            color: #fff;
-            text-align: center;
-            border-bottom: 1px solid #ccc;
-        }
+    .header {
+      background-color: #00B4D8;
+      color: #fff;
+    }
 
-        .content {
-            padding: 40px;
-            text-align: justify;
-            background-color: #fff;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
+    .content {
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
 
-        .app-screenshot {
-            width: 100%;
-            max-width: 400px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
+    .app-screenshot {
+      width: 100%;
+      max-width: 600px;
+      margin-bottom: 20px;
+    }
 
-        .download-button {
-            display: block;
-            width: 100%;
-            max-width: 200px;
-            margin: 20px auto;
-            border-radius: 30px;
-            background-color: #000;
-            color: #fff;
-            padding: 15px;
-            text-align: center;
-            text-decoration: none;
-            transition: background-color 0.3s;
-        }
+    .download-button {
+      display: inline-block;
+      background-color: #00B4D8;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 18px;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
 
-        .download-button:hover {
-            background-color: #333;
-        }
-    </style>
+    .download-button:hover {
+      background-color: #0096B7;
+    }
+  </style>
 </head>
-
 <body>
-    <div class="header">
-        <h1>AR Indoor Navigation App</h1>
+  <div class="header py-4">
+    <div class="container mx-auto text-center">
+      <h1 class="text-3xl font-bold">AR Indoor Navigation App</h1>
     </div>
+  </div>
 
-    <div class="content">
-        <h2>About the App</h2>
-        <p>
-            The AR Indoor Navigation App is designed to provide seamless navigation within Charmo University campus.
-            Using augmented reality (AR) technology, the app allows users to easily find their way through buildings,
-            locate specific rooms, and receive real-time directions.
-        </p>
-
-        <img src="image1.jpg" alt="App Screenshot" class="app-screenshot">
-        <img src="image2.jpg" alt="App Screenshot" class="app-screenshot">
-
-        <h2>Download</h2>
-        <p>
-            Download the AR Indoor Navigation App for your device to enhance your campus navigation experience at Charmo
-            University.
-        </p>
-        <a href="app-download-link" class="download-button">Download App</a>
+  <div class="content py-8">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap items-center justify-center">
+        <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4">
+          <img src="image1.jpg" alt="App Screenshot" class="app-screenshot">
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4">
+          <img src="image2.jpg" alt="App Screenshot" class="app-screenshot">
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4">
+          <img src="image3.jpg" alt="App Screenshot" class="app-screenshot">
+        </div>
+      </div>
     </div>
+    <div class="container mx-auto px-4 py-8 text-center">
+      <h2 class="text-2xl font-bold">About the App</h2>
+      <p class="text-lg text-gray-700 my-4">
+        The AR Indoor Navigation App is designed to provide seamless navigation within Charmo University campus. Using augmented reality (AR) technology, the app allows users to easily find their way through buildings, locate specific rooms, and receive real-time directions.
+      </p>
+      <a href="https://app-download-link" class="download-button">Download App</a>
+    </div>
+  </div>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.tailwindcss.com/2.2.16@tailwind.min.js"></script>
 </body>
-
 </html>
